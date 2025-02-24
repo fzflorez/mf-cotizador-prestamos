@@ -49,7 +49,7 @@ function App() {
   }
 
   return (
-    <div className=" my-20 max-w-lg mx-auto bg-white shadow p-10">
+    <div className=" my-10 max-w-slg mx-auto bg-slate-300 shadow p-10 md:my-20">
       <Header />
 
       <div className=" flex justify-between my-6">
@@ -66,7 +66,7 @@ function App() {
         step={STEP}
       />
 
-      <p className=" text-center my-10 text-6xl font-extrabold text-yellow-500">
+      <p className=" text-center my-10 text-5xl font-extrabold text-yellow-500 md:text-6xl">
         {formaterCurrency(quantity)}
       </p>
 
