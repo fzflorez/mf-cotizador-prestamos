@@ -49,7 +49,7 @@ function App() {
   }
 
   return (
-    <div className=" my-0 max-w-lg mx-auto bg-white shadow p-10 md:my-20">
+    <div className=" my-0 max-w-lg mx-auto bg-white shadow-lg p-10 md:my-20">
       <Header />
 
       <div className=" flex justify-between my-6">
